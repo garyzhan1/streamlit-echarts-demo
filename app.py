@@ -8,7 +8,7 @@ from demo_pyecharts import ST_PY_DEMOS
 
 
 def main():
-    st.title("Streamlit ECharts Demo")
+    st.title("深圳翩翩 Demo")
 
     with st.sidebar:
         st.header("Configuration")
@@ -56,7 +56,7 @@ def main():
 
 if __name__ == "__main__":
     st.set_page_config(
-        page_title="Streamlit ECharts Demo", page_icon=":chart_with_upwards_trend:"
+        page_title="深圳翩翩 Demo", page_icon=":chart_with_upwards_trend:"
     )
     main()
     with st.sidebar:
